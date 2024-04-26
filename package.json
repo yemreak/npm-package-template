@@ -1,0 +1,26 @@
+{
+	"name": "@yemreak/todo",
+	"version": "1.0.0",
+	"description": "todo app with typescript",
+	"main": "src/app.ts",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yemreak/todo.git"
+	},
+	"keywords": [],
+	"author": "yemreak",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/yemreak/todo/issues"
+	},
+	"homepage": "https://github.com/yemreak/todo#readme",
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.1.2",
+		"typescript": "^5.4.5"
+	}
+}
