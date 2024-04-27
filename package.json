@@ -1,7 +1,7 @@
 {
-	"name": "@yemreak/todo",
+	"name": "@yemreak/mypackage",
 	"version": "1.0.0",
-	"description": "todo app with typescript",
+	"description": "mypackage app with typescript",
 	"main": "src/index.ts",
 	"scripts": {
 		"start": "tsc --project tsconfig.json && node out/app.js",
@@ -9,15 +9,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/yemreak/todo.git"
+		"url": "git+https://github.com/yemreak/mypackage.git"
 	},
 	"keywords": [],
 	"author": "yemreak",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/yemreak/todo/issues"
+		"url": "https://github.com/yemreak/mypackage/issues"
 	},
-	"homepage": "https://github.com/yemreak/todo#readme",
+	"homepage": "https://github.com/yemreak/mypackage#readme",
 	"devDependencies": {
 		"@types/jest": "^29.5.12",
 		"jest": "^29.7.0",
