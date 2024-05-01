@@ -1,12 +1,13 @@
 {
 	"name": "@yemreak/mypackage",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "mypackage app with typescript",
 	"main": "src/index.ts",
 	"type": "module",
 	"scripts": {
 		"start": "tsc --project tsconfig.json && node out/app.js",
-		"build": "tsc --project tsconfig.json"
+		"build": "tsc --project tsconfig.json",
+		"publish": "npm publish --access public"
 	},
 	"repository": {
 		"type": "git",
