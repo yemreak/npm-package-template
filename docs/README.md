@@ -24,19 +24,19 @@ To get started with this npm package template, follow these steps:
 	```
 ## `tsconfig.json`
 
-- **Target**: Specifies the version of ECMAScript to use. Set to `ESNext`, which means the latest draft version
-- **Module**: Determines the module system, using `ESNext` for the latest
-- **OutDir**: The output directory for compiled files is `./out`
-- **RootDir**: The root directory containing TypeScript files is `./src`
-- **ModuleResolution**: Configured to `Bundler`, indicating that a module bundler handles module resolution
-- **esModuleInterop**: Set to `true` to enable interoperability for non-ECMAScript module (ESM) packages
-- **ForceConsistentCasingInFileNames**: Ensures that references to filenames maintain consistent casing
-- **Strict**: Enables all strict type-checking options
-- **SkipLibCheck**: Skips type checking for default library files (`*.d.ts`)
-- **ResolveJsonModule**: Allows importing `.json` files
-- **SourceMap**: Generates corresponding `.map` files for debugging
-- **Declaration**: Emits `.d.ts` files for each corresponding `.ts` file
-- **Incremental**: Enables incremental compilation by caching certain file contents
-- **StrictNullChecks**: Ensures strict null checking where `null` and `undefined` are handled explicitly
-- **Include**: Includes all TypeScript files within `src`, matching the pattern `src/**/*.ts`
-- **Exclude**: Excludes files in `node_modules` and all `.spec.ts` files to prevent them from being compiled
+- **Target: `ESNext`** - Uses the most recent ECMAScript version, allowing the use of latest features but may include unstable features
+- **Module: `ESNext`** - Adopts the latest module system, which supports modern tooling but may not be compatible with older environments
+- **OutDir: `./out`** - Directs compiled files to a specific directory, keeping source files clean but requires directory management
+- **RootDir: `./src`** - Specifies the root folder for source files, organizing code effectively but necessitating correct path settings
+- **ModuleResolution: `Bundler`** - Delegates resolution logic to a bundler, simplifying module handling while increasing dependency on external tools
+- **esModuleInterop: `true`** - Facilitates importing CommonJS modules into ES modules, increasing compatibility but potentially obscuring module differences
+- **ForceConsistentCasingInFileNames: `true`** - Prevents casing issues in module imports, enhancing portability but requiring consistent file naming
+- **Strict: `true`** - Enforces strict typing, improving code reliability but increasing complexity in type management
+- **SkipLibCheck: `true`** - Skips checking of declaration files to speed up compilation, though may miss type errors in library definitions
+- **ResolveJsonModule: `true`** - Allows importing JSON files directly into TypeScript files, increasing ease of use but adding more steps to the build process
+- **SourceMap: `true`** - Generates source map files for debugging, improving developer experience but slightly increasing output size
+- **Declaration: `true`** - Generates type declaration files automatically, beneficial for library authors but adds to the compilation time
+- **Incremental: `true`** - Reduces build times by using incremental compilation, enhancing performance but may lead to incomplete recompiles if not managed correctly
+- **StrictNullChecks: `true`** - Forces explicit handling of `null` and `undefined`, increasing type safety but requiring more thorough initialization checks
+- **Include: `src/**/*.ts`** - Ensures all relevant files are included, simplifying project setup but requiring correct glob patterns
+- **Exclude: `node_modules`, `**/*.spec.ts`** - Prevents unnecessary files from being compiled, reducing clutter but requiring explicit exclusion patterns
