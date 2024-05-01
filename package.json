@@ -1,6 +1,6 @@
 {
 	"name": "@yemreak/mypackage",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"description": "mypackage app with typescript",
 	"main": "src/index.ts",
 	"type": "module",
