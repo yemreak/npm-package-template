@@ -8,6 +8,7 @@
 		"start": "tsc --project tsconfig.json && node out/app.js",
 		"build": "tsc --project tsconfig.json",
 		"publish": "npm publish --access public"
+		"test": "node --experimental-vm-modules ./node_modules/.bin/jest"
 	},
 	"jest": {
 		"preset": "ts-jest",
