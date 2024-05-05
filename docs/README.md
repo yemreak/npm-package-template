@@ -46,3 +46,8 @@ To get started with this npm package template, follow these steps:
 - **StrictNullChecks: `true`** - Forces explicit handling of `null` and `undefined`, increasing type safety but requiring more thorough initialization checks
 - **Include: `src/**/*.ts`** - Ensures all relevant files are included, simplifying project setup but requiring correct glob patterns
 - **Exclude: `node_modules`, `**/*.spec.ts`** - Prevents unnecessary files from being compiled, reducing clutter but requiring explicit exclusion patterns
+
+## Extension Suggestion
+
+[<img width="335" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/15ecbe73-3a59-4680-a227-c7a251fb878f">](https://marketplace.visualstudio.com/items?itemName=vespa-dev-works.jestRunIt)
+
