@@ -50,5 +50,6 @@ To get started with this npm package template, follow these steps:
 
 ## Extension Suggestion
 
-[<img width="335" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/15ecbe73-3a59-4680-a227-c7a251fb878f">](https://marketplace.visualstudio.com/items?itemName=vespa-dev-works.jestRunIt)
+[<img width="330" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/96c8c0fd-547f-408d-b223-9b151f81e3ea">
+](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 [<img width="335" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/5f0d58f1-08cb-46ef-a39e-077f91d96aa6">](https://marketplace.visualstudio.com/items?itemName=yemreak.mindease-vscode-theme)
