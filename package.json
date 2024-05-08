@@ -2,7 +2,7 @@
 	"name": "@yemreak/mypackage",
 	"version": "1.0.0",
 	"description": "mypackage app with typescript",
-	"main": "src/index.ts",
+	"main": "src/app.ts",
 	"type": "module",
 	"scripts": {
 		"start": "tsc --project tsconfig.json && node out/app.js",
