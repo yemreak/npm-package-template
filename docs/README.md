@@ -20,11 +20,12 @@ To get started with this npm package template, follow these steps:
 	```zsh
 	npm install
 	```
-8. To add a new user to npm registry, run:
+8. Remember to put your `d.ts` files in the `types` directory
+9. To add a new user to npm registry, run:
 	```zsh
 	npm adduser
 	```
-9. To publish the package to the **public** npm registry, run:
+10. To publish the package to the **public** npm registry, run:
 	```zsh
 	npm publish --access public
 	```
@@ -51,5 +52,3 @@ To get started with this npm package template, follow these steps:
 
 [<img width="335" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/15ecbe73-3a59-4680-a227-c7a251fb878f">](https://marketplace.visualstudio.com/items?itemName=vespa-dev-works.jestRunIt)
 [<img width="335" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/5f0d58f1-08cb-46ef-a39e-077f91d96aa6">](https://marketplace.visualstudio.com/items?itemName=yemreak.mindease-vscode-theme)
-
-
