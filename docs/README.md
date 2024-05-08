@@ -1,5 +1,10 @@
 # npm-package-template
 
+
+[<img width="330" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/96c8c0fd-547f-408d-b223-9b151f81e3ea">
+](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+[<img width="335" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/5f0d58f1-08cb-46ef-a39e-077f91d96aa6">](https://marketplace.visualstudio.com/items?itemName=yemreak.mindease-vscode-theme)
+
 ## Getting Started
 
 To get started with this npm package template, follow these steps:
@@ -47,9 +52,3 @@ To get started with this npm package template, follow these steps:
 - **StrictNullChecks: `true`** - Forces explicit handling of `null` and `undefined`, increasing type safety but requiring more thorough initialization checks
 - **Include: `src/**/*.ts`** - Ensures all relevant files are included, simplifying project setup but requiring correct glob patterns
 - **Exclude: `node_modules`, `**/*.spec.ts`** - Prevents unnecessary files from being compiled, reducing clutter but requiring explicit exclusion patterns
-
-## Extension Suggestion
-
-[<img width="330" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/96c8c0fd-547f-408d-b223-9b151f81e3ea">
-](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
-[<img width="335" alt="image" src="https://github.com/yemreak/npm-package-template/assets/49655146/5f0d58f1-08cb-46ef-a39e-077f91d96aa6">](https://marketplace.visualstudio.com/items?itemName=yemreak.mindease-vscode-theme)
