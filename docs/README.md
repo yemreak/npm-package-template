@@ -25,7 +25,7 @@ To get started with this npm package template, follow these steps:
 	```zsh
 	npm install
 	```
-8. Remember to put your `d.ts` files in the `types` directory
+8. Remember to put your `d.ts` files in the `src/types` directory
 9. To add a new user to npm registry, run:
 	```zsh
 	npm adduser
@@ -38,7 +38,7 @@ To get started with this npm package template, follow these steps:
 
 - **Target: `ESNext`** - Uses the most recent ECMAScript version, allowing the use of latest features but may include unstable features
 - **Module: `ESNext`** - Adopts the latest module system, which supports modern tooling but may not be compatible with older environments
-- **OutDir: `./out`** - Directs compiled files to a specific directory, keeping source files clean but requires directory management
+- **OutDir: `./dist`** - Directs compiled files to a specific directory, keeping source files clean but requires directory management
 - **RootDir: `./src`** - Specifies the root folder for source files, organizing code effectively but necessitating correct path settings
 - **ModuleResolution: `Bundler`** - Delegates resolution logic to a bundler, simplifying module handling while increasing dependency on external tools
 - **esModuleInterop: `true`** - Facilitates importing CommonJS modules into ES modules, increasing compatibility but potentially obscuring module differences

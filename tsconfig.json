@@ -1,21 +1,21 @@
 {
 	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-		"declaration": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"incremental": true,
+		"target": "ESNext",
 		"module": "ESNext",
-		"moduleResolution": "Bundler",
-		"outDir": "./out",
-		"resolveJsonModule": true,
+		"outDir": "./dist",
 		"rootDir": "./src",
-		"skipLibCheck": true,
-		"sourceMap": true,
+		"moduleResolution": "Bundler",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
 		"strict": true,
-		"strictNullChecks": true,
-		"target": "ESNext"
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"declaration": true,
+		"incremental": true,
+		"strictNullChecks": true
 	},
-	"exclude": ["node_modules", "**/*.spec.ts"],
-	"include": ["src/**/*.ts", "types/**/*.d.ts"]
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
 }
