@@ -18,7 +18,7 @@
 		"incremental": true,
 		"strictNullChecks": true,
 		"removeComments": true,
-		"noImplicitAny": false
+		"noImplicitAny": true
 	},
 	"include": ["src/**/*.ts"],
 	"exclude": ["node_modules", "**/*.spec.ts"]
