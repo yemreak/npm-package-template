@@ -11,10 +11,14 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"resolveJsonModule": true,
+		"emitDecoratorMetadata": true,
 		"sourceMap": true,
+		"experimentalDecorators": true,
 		"declaration": true,
 		"incremental": true,
-		"strictNullChecks": true
+		"strictNullChecks": true,
+		"removeComments": true,
+		"noImplicitAny": false
 	},
 	"include": ["src/**/*.ts"],
 	"exclude": ["node_modules", "**/*.spec.ts"]

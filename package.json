@@ -18,15 +18,14 @@
 		"access": "public"
 	},
 	"jest": {
+		"rootDir": "src",
+		"coverageDirectory": "../coverage",
 		"preset": "ts-jest",
 		"testEnvironment": "node",
 		"silent": true,
 		"extensionsToTreatAsEsm": [
 			".ts"
 		],
-		"moduleNameMapper": {
-			"^(\\.{1,2}/.*)\\.js$": "$1"
-		},
 		"transform": {
 			"^.+\\.ts$": [
 				"ts-jest",
@@ -34,6 +33,9 @@
 					"useESM": true
 				}
 			]
+		},
+		"moduleNameMapper": {
+			"^(\\.{1,2}/.*)\\.js$": "$1"
 		}
 	},
 	"repository": {
