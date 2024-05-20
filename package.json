@@ -2,11 +2,11 @@
 	"name": "@yemreak/mypackage",
 	"version": "1.0.0",
 	"description": "mypackage app with typescript",
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
+	"main": "dist/app.js",
+	"types": "dist/app.d.ts",
 	"type": "module",
 	"scripts": {
-		"start": "tsc --project tsconfig.json && node dist/index.js",
+		"start": "tsc --project tsconfig.json && node dist/app.js",
 		"build": "tsc --project tsconfig.json",
 		"test": "node --experimental-vm-modules ./node_modules/.bin/jest",
 		"prepublishOnly": "npm run build"
