@@ -16,7 +16,7 @@
 		"experimentalDecorators": true,
 		"declaration": true,
 		"incremental": true,
-		"strictNullChecks": true,
+		"strictNullChecks": false,
 		"removeComments": true,
 		"noImplicitAny": false
 	},
