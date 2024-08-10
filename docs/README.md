@@ -26,11 +26,23 @@ To get started with this npm package template, follow these steps:
 	npm install
 	```
 8. Remember to put your `d.ts` files in the `src/types` directory
-9. To add a new user to npm registry, run:
+
+### Knip Repo
+
+You can use the following command to run the Knip script:
+
+```zsh
+npm run knip
+```
+![knip output](assets/knip.png)
+
+### Npm package publishing
+
+1. To add a new user to npm registry, run:
 	```zsh
 	npm adduser
 	```
-10. To publish the package to the **public** npm registry, run:
+2. To publish the package to the **public** npm registry, run:
 	```zsh
 	npm publish --access public
 	```
